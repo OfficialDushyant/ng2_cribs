@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { CribListingComponent } from './crib-listing/crib-listing.component';
+import { CribsCardComponent } from './cribs-card/cribs-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CribListingComponent
+    CribListingComponent,
+    CribsCardComponent
   ],
   imports: [
     BrowserModule,
